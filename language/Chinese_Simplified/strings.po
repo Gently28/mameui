@@ -245,7 +245,7 @@ msgid ""
 " added to favorites list."
 msgstr ""
 "%s\n"
-" 已新增至最爱清单。"
+" 已添加至收藏夹。"
 
 #: src/frontend/mame/ui/selsoft.cpp:515 src/frontend/mame/ui/selgame.cpp:323
 #: src/frontend/mame/ui/selgame.cpp:329
@@ -255,7 +255,7 @@ msgid ""
 " removed from favorites list."
 msgstr ""
 "%s\n"
-" 已从最爱清单移除。"
+" 已从收藏夹移除。"
 
 #: src/frontend/mame/ui/selsoft.cpp:576
 msgid "[Start empty]"
@@ -278,12 +278,12 @@ msgstr "%1$s - 选择软件"
 #: src/frontend/mame/ui/selsoft.cpp:762 src/frontend/mame/ui/selgame.cpp:1092
 #, c-format
 msgid "%1$s: %2$s - Search: %3$s_"
-msgstr "%1$s： %2$s - 搜寻： %3$s_"
+msgstr "%1$s： %2$s - 搜索： %3$s_"
 
 #: src/frontend/mame/ui/selsoft.cpp:764 src/frontend/mame/ui/selgame.cpp:1094
 #, c-format
 msgid "Search: %1$s_"
-msgstr "搜寻： %1$s_"
+msgstr "搜索： %1$s_"
 
 #: src/frontend/mame/ui/selsoft.cpp:771
 #, c-format
@@ -316,11 +316,11 @@ msgstr "保存设定"
 
 #: src/frontend/mame/ui/optsmenu.cpp:183 src/frontend/mame/ui/optsmenu.cpp:225
 msgid "System Filter"
-msgstr "系統过滤"
+msgstr "系统筛选"
 
 #: src/frontend/mame/ui/optsmenu.cpp:195 src/frontend/mame/ui/custui.cpp:84
 msgid "Customize UI"
-msgstr "自订 UI"
+msgstr "自定义用户界面"
 
 #: src/frontend/mame/ui/optsmenu.cpp:196 src/frontend/mame/ui/dirmenu.cpp:579
 msgid "Configure Folders"
@@ -354,7 +354,7 @@ msgstr "选择存取模式"
 
 #: src/frontend/mame/ui/filesel.cpp:520
 msgid "Read-only"
-msgstr "唯读"
+msgstr "只读"
 
 #: src/frontend/mame/ui/filesel.cpp:522
 msgid "Read-write"
@@ -362,15 +362,15 @@ msgstr "读写"
 
 #: src/frontend/mame/ui/filesel.cpp:523
 msgid "Read this image, write to another image"
-msgstr "读取此映像档，写入至其他映像档"
+msgstr "读取此映像，写入至其他映像"
 
 #: src/frontend/mame/ui/filesel.cpp:524
 msgid "Read this image, write to diff"
-msgstr "读取此映像档，写入差异档"
+msgstr "读取此映像，写入差异"
 
 #: src/frontend/mame/ui/submenu.cpp:33
 msgid "Miscellaneous Options"
-msgstr "其他选项"
+msgstr "其它选项"
 
 #: src/frontend/mame/ui/submenu.cpp:34
 msgid "Skip imperfect emulation warnings"
@@ -402,7 +402,7 @@ msgstr "略过系统信息画面"
 
 #: src/frontend/mame/ui/submenu.cpp:41
 msgid "Force 4:3 aspect for snapshot display"
-msgstr "强制撷图显示比例为 4:3"
+msgstr "强制截图显示比例为 4:3"
 
 #: src/frontend/mame/ui/submenu.cpp:42
 msgid "Use image as background"
@@ -426,7 +426,7 @@ msgstr "在可用清单中隐藏无 ROM 机台"
 
 #: src/frontend/mame/ui/submenu.cpp:52
 msgid "Advanced Options"
-msgstr "进阶选项"
+msgstr "高级选项"
 
 #: src/frontend/mame/ui/submenu.cpp:53
 msgid "Performance Options"
@@ -558,11 +558,11 @@ msgstr "多鼠标"
 
 #: src/frontend/mame/ui/submenu.cpp:89
 msgid "Steadykey"
-msgstr "稳定键"
+msgstr "组合键"
 
 #: src/frontend/mame/ui/submenu.cpp:90
 msgid "UI active"
-msgstr "UI 启动"
+msgstr "用户界面启动"
 
 #: src/frontend/mame/ui/submenu.cpp:91
 msgid "Off-screen reload"
@@ -582,7 +582,7 @@ msgstr "摇杆阈值"
 
 #: src/frontend/mame/ui/submenu.cpp:95
 msgid "Natural keyboard"
-msgstr "自然键盘"
+msgstr "原始键盘"
 
 #: src/frontend/mame/ui/submenu.cpp:96
 msgid "Allow contradictory joystick inputs"
@@ -811,7 +811,7 @@ msgstr "声音"
 #: src/frontend/mame/ui/info.cpp:46
 msgctxt "emulation-feature"
 msgid "capture hardware"
-msgstr "撷取硬体"
+msgstr "撷取硬件"
 
 #: src/frontend/mame/ui/info.cpp:47
 msgctxt "emulation-feature"
@@ -930,7 +930,7 @@ msgstr "未完美模拟功能: "
 
 #: src/frontend/mame/ui/info.cpp:133
 msgid "Screen flipping in cocktail mode is not supported.\n"
-msgstr "尚未支援台面型筐体模式的画面翻转。\n"
+msgstr "尚未支持台面型筐体模式的画面翻转。\n"
 
 #: src/frontend/mame/ui/info.cpp:135
 msgid "This system requires external artwork files.\n"
@@ -946,7 +946,7 @@ msgstr "本系统无法完成, 并非模拟时的错误而可能呈现怪异的�
 msgid ""
 "This system has no sound hardware, MAME will produce no sounds, this is "
 "expected behaviour.\n"
-msgstr "本系统无声音硬体, 故 MAME 将不会产生声音, 这是可预期的行为。\n"
+msgstr "本系统无声音硬件, 故 MAME 将不会产生声音, 这是可预期的行为。\n"
 
 #: src/frontend/mame/ui/info.cpp:143
 msgid ""
@@ -1069,11 +1069,11 @@ msgstr "媒体映像档信息"
 
 #: src/frontend/mame/ui/info.cpp:681
 msgid "Not supported"
-msgstr "不支援"
+msgstr "不支持"
 
 #: src/frontend/mame/ui/info.cpp:684
 msgid "Partially supported"
-msgstr "部分支援"
+msgstr "部分支持"
 
 #: src/frontend/mame/ui/info.cpp:693
 msgid "[empty]"
@@ -1089,15 +1089,15 @@ msgstr "切换项目顺序"
 
 #: src/frontend/mame/ui/swlist.cpp:307
 msgid "Switched Order: entries now ordered by shortname"
-msgstr "切换顺序：当前项目依照短档名排序"
+msgstr "切换顺序：当前项目按缩写名排序"
 
 #: src/frontend/mame/ui/swlist.cpp:308
 msgid "Switched Order: entries now ordered by description"
-msgstr "切换顺序：当前项目依照描述排序"
+msgstr "切换顺序：当前项目按描述排序"
 
 #: src/frontend/mame/ui/swlist.cpp:409
 msgid "[compatible lists]"
-msgstr "[ 完整清单 ]"
+msgstr "[ 完整列表 ]"
 
 #: src/frontend/mame/ui/filecreate.cpp:79
 msgid "File Already Exists - Override?"
@@ -1121,11 +1121,11 @@ msgstr "映像档格式"
 
 #: src/frontend/mame/ui/filecreate.cpp:202
 msgid "Create"
-msgstr "建立"
+msgstr "新建"
 
 #: src/frontend/mame/ui/filecreate.cpp:230
 msgid "Please enter a file extension too"
-msgstr "请一并输入副档名"
+msgstr "请一并输入扩展名"
 
 #: src/frontend/mame/ui/filecreate.cpp:295
 msgid "Select image format"
@@ -1148,7 +1148,7 @@ msgstr "键盘模式"
 #: src/frontend/mame/ui/keyboard.cpp:47 src/frontend/mame/ui/keyboard.cpp:92
 msgctxt "menu-keyboard"
 msgid "Natural"
-msgstr "自然"
+msgstr "原始"
 
 #: src/frontend/mame/ui/keyboard.cpp:47 src/frontend/mame/ui/keyboard.cpp:92
 msgctxt "menu-keyboard"
@@ -1228,7 +1228,7 @@ msgstr "配件编号"
 #: src/frontend/mame/ui/utils.cpp:73
 msgctxt "swlist-info"
 msgid "PCB"
-msgstr "PCB"
+msgstr "印刷电路板"
 
 #: src/frontend/mame/ui/utils.cpp:74
 msgctxt "swlist-info"
@@ -1238,7 +1238,7 @@ msgstr "编码"
 #: src/frontend/mame/ui/utils.cpp:75
 msgctxt "swlist-info"
 msgid "Release Date"
-msgstr "发行日"
+msgstr "发行日期"
 
 #: src/frontend/mame/ui/utils.cpp:76
 msgctxt "swlist-info"
@@ -1298,7 +1298,7 @@ msgstr "类别"
 #: src/frontend/mame/ui/utils.cpp:92
 msgctxt "machine-filter"
 msgid "Favorites"
-msgstr "最爱"
+msgstr "收藏夹"
 
 #: src/frontend/mame/ui/utils.cpp:93
 msgctxt "machine-filter"
@@ -1313,7 +1313,7 @@ msgstr "非 BIOS"
 #: src/frontend/mame/ui/utils.cpp:95
 msgctxt "machine-filter"
 msgid "Parents"
-msgstr "主档"
+msgstr "主文件"
 
 #: src/frontend/mame/ui/utils.cpp:96
 msgctxt "machine-filter"
@@ -1333,12 +1333,12 @@ msgstr "年代"
 #: src/frontend/mame/ui/utils.cpp:99
 msgctxt "machine-filter"
 msgid "Save Supported"
-msgstr "已支援即时存档"
+msgstr "已支持即时存档"
 
 #: src/frontend/mame/ui/utils.cpp:100
 msgctxt "machine-filter"
 msgid "Save Unsupported"
-msgstr "不支援即时存档"
+msgstr "不支持即时存档"
 
 #: src/frontend/mame/ui/utils.cpp:101
 msgctxt "machine-filter"
@@ -1353,17 +1353,17 @@ msgstr "不需要 CHD"
 #: src/frontend/mame/ui/utils.cpp:103
 msgctxt "machine-filter"
 msgid "Vertical Screen"
-msgstr "垂直萤幕"
+msgstr "垂直画面"
 
 #: src/frontend/mame/ui/utils.cpp:104
 msgctxt "machine-filter"
 msgid "Horizontal Screen"
-msgstr "水平萤幕"
+msgstr "水平画面"
 
 #: src/frontend/mame/ui/utils.cpp:105
 msgctxt "machine-filter"
 msgid "Custom Filter"
-msgstr "自订筛选"
+msgstr "自定义筛选"
 
 #: src/frontend/mame/ui/utils.cpp:109
 msgctxt "software-filter"
@@ -1383,7 +1383,7 @@ msgstr "不可用"
 #: src/frontend/mame/ui/utils.cpp:112
 msgctxt "software-filter"
 msgid "Favorites"
-msgstr "最爱"
+msgstr "收藏夹"
 
 #: src/frontend/mame/ui/utils.cpp:113
 msgctxt "software-filter"
@@ -1443,7 +1443,7 @@ msgstr "不支援"
 #: src/frontend/mame/ui/utils.cpp:124
 msgctxt "software-filter"
 msgid "Release Region"
-msgstr "释出区域"
+msgstr "发布区域"
 
 #: src/frontend/mame/ui/utils.cpp:125
 msgctxt "software-filter"
@@ -1453,12 +1453,12 @@ msgstr "设备类别"
 #: src/frontend/mame/ui/utils.cpp:126
 msgctxt "software-filter"
 msgid "Software List"
-msgstr "软件清单"
+msgstr "软件列表"
 
 #: src/frontend/mame/ui/utils.cpp:127
 msgctxt "software-filter"
 msgid "Custom Filter"
-msgstr "自订过滤"
+msgstr "自定义筛选"
 
 #: src/frontend/mame/ui/utils.cpp:213
 msgid "Filter"
@@ -1466,36 +1466,36 @@ msgstr "筛选"
 
 #: src/frontend/mame/ui/utils.cpp:292
 msgid "<set up filters>"
-msgstr "<设定过滤>"
+msgstr "<设定筛选>"
 
 #: src/frontend/mame/ui/utils.cpp:390
 msgid "Select Filters"
-msgstr "选择过滤"
+msgstr "选择筛选"
 
 #: src/frontend/mame/ui/utils.cpp:538
 #, c-format
 msgid "Filter %1$u"
-msgstr "过滤 %1$u"
+msgstr "筛选 %1$u"
 
 #: src/frontend/mame/ui/utils.cpp:552
 msgid "Remove last filter"
-msgstr "移除最后过滤器"
+msgstr "移除最后筛选"
 
 #: src/frontend/mame/ui/utils.cpp:554
 msgid "Add filter"
-msgstr "新增过滤器"
+msgstr "添加筛选"
 
 #: src/frontend/mame/ui/utils.cpp:1013
 msgid "[no category INI files]"
-msgstr "[没有类别 INI 文件]"
+msgstr "[没有类别初始化文件]"
 
 #: src/frontend/mame/ui/utils.cpp:1021
 msgid "[no groups in INI file]"
-msgstr "[INI 文件中没有群组]"
+msgstr "[初始化文件中没有群组]"
 
 #: src/frontend/mame/ui/utils.cpp:1056
 msgid "No category INI files found"
-msgstr "没有发现群组 INI 文件"
+msgstr "没有发现群组初始化文件"
 
 #: src/frontend/mame/ui/utils.cpp:1061
 msgid "File"
@@ -1541,7 +1541,7 @@ msgstr "系统"
 
 #: src/frontend/mame/ui/miscmenu.cpp:82
 msgid "Reset"
-msgstr "重设"
+msgstr "重置"
 
 #: src/frontend/mame/ui/miscmenu.cpp:150
 msgid "Network Devices"
@@ -1600,7 +1600,7 @@ msgstr "十字准星选项"
 #: src/frontend/mame/ui/miscmenu.cpp:465
 msgctxt "menu-crosshair"
 msgid "Never"
-msgstr "绝不"
+msgstr "从不"
 
 #: src/frontend/mame/ui/miscmenu.cpp:466
 msgctxt "menu-crosshair"
@@ -1637,12 +1637,12 @@ msgstr "%1$d 秒"
 
 #: src/frontend/mame/ui/miscmenu.cpp:593
 msgid "Export Displayed List to File"
-msgstr "汇出显示清单至档案"
+msgstr "导出显示清单至档案"
 
 #: src/frontend/mame/ui/miscmenu.cpp:653
 #, c-format
 msgid "%s.xml saved in UI settings folder."
-msgstr "%s.xml 已保存于 UI 设定文件夹"
+msgstr "%s.xml 已保存于用户界面设定文件夹"
 
 #: src/frontend/mame/ui/miscmenu.cpp:679
 msgid "Name:             Description:\n"
@@ -1651,19 +1651,19 @@ msgstr "名称：            描述：\n"
 #: src/frontend/mame/ui/miscmenu.cpp:690
 #, c-format
 msgid "%s.txt saved in UI settings folder."
-msgstr "%s.txt 已保存于 UI 设定文件夹"
+msgstr "%s.txt 已保存于用户界面设定文件夹"
 
 #: src/frontend/mame/ui/miscmenu.cpp:707
 msgid "Export list in XML format (like -listxml)"
-msgstr "汇出 XML 格式列表 （同 -listxml）"
+msgstr "导出 XML 格式列表 （同 -listxml）"
 
 #: src/frontend/mame/ui/miscmenu.cpp:708
 msgid "Export list in XML format (like -listxml, but exclude devices)"
-msgstr "汇出 XML 格式列表 （同 -listxml，但不包含设备）"
+msgstr "导出 XML 格式列表 （同 -listxml，但不包含设备）"
 
 #: src/frontend/mame/ui/miscmenu.cpp:709
 msgid "Export list in TXT format (like -listfull)"
-msgstr "汇出 TXT 格式列表 （同 -listfull）"
+msgstr "导出 TXT 格式列表 （同 -listfull）"
 
 #: src/frontend/mame/ui/miscmenu.cpp:734
 #, c-format
@@ -1684,11 +1684,11 @@ msgstr "[此系统有无 BIOS 设定]"
 
 #: src/frontend/mame/ui/miscmenu.cpp:833
 msgid "Add To Favorites"
-msgstr "新增至最爱"
+msgstr "添加至收藏夹"
 
 #: src/frontend/mame/ui/miscmenu.cpp:835
 msgid "Remove From Favorites"
-msgstr "从最爱移除"
+msgstr "从收藏夹移除"
 
 #: src/frontend/mame/ui/miscmenu.cpp:838
 msgid "Save System Settings"
@@ -1696,7 +1696,7 @@ msgstr "保存系统设定"
 
 #: src/frontend/mame/ui/miscmenu.cpp:871 src/frontend/mame/ui/selmenu.cpp:2698
 msgid " (default)"
-msgstr " (缺省)"
+msgstr " (默认)"
 
 #: src/frontend/mame/ui/miscmenu.cpp:948
 msgid "No plugins found"
@@ -1721,7 +1721,7 @@ msgstr "伪终端"
 
 #: src/frontend/mame/ui/info_pty.cpp:37
 msgid "[failed]"
-msgstr "[ 错误 ]"
+msgstr "[ 失败 ]"
 
 #: src/frontend/mame/ui/sliders.cpp:30
 msgid "Slider Controls"
@@ -1795,12 +1795,12 @@ msgstr "输入配置 (一般)"
 
 #: src/frontend/mame/ui/inputmap.cpp:39
 msgid "User Interface"
-msgstr "使用者介面"
+msgstr "用户界面"
 
 #: src/frontend/mame/ui/inputmap.cpp:42
 #, c-format
 msgid "Player %1$d Controls"
-msgstr "玩者 %1$d 控制"
+msgstr "玩家 %1$d 控制"
 
 #: src/frontend/mame/ui/inputmap.cpp:45
 msgid "Other Controls"
@@ -1863,7 +1863,7 @@ msgstr "按下 %1$s 清除\n"
 #: src/frontend/mame/ui/inputmap.cpp:611
 #, c-format
 msgid "Press %1$s to restore default\n"
-msgstr "按下 %1$s 还原缺省值\n"
+msgstr "按下 %1$s 还原默认值\n"
 
 #: src/frontend/mame/ui/inputdevices.cpp:33
 #, c-format
@@ -2014,7 +2014,7 @@ msgstr "设定选项"
 #: src/frontend/mame/ui/simpleselgame.cpp:279
 #: src/frontend/mame/ui/selmenu.cpp:1307
 msgid "Exit"
-msgstr "结束"
+msgstr "退出"
 
 #: src/frontend/mame/ui/simpleselgame.cpp:313
 #, c-format
@@ -2163,27 +2163,27 @@ msgstr "外挂"
 #: src/frontend/mame/ui/dirmenu.cpp:47
 msgctxt "path-option"
 msgid "UI Translations"
-msgstr "UI 翻译"
+msgstr "用户界面翻译"
 
 #: src/frontend/mame/ui/dirmenu.cpp:48
 msgctxt "path-option"
 msgid "Software Lists"
-msgstr "软件清单"
+msgstr "软件列表"
 
 #: src/frontend/mame/ui/dirmenu.cpp:49
 msgctxt "path-option"
 msgid "INIs"
-msgstr "INI"
+msgstr "初始化"
 
 #: src/frontend/mame/ui/dirmenu.cpp:50
 msgctxt "path-option"
 msgid "UI Settings"
-msgstr "UI 设定"
+msgstr "用户界面设定"
 
 #: src/frontend/mame/ui/dirmenu.cpp:51
 msgctxt "path-option"
 msgid "Plugin Data"
-msgstr "外挂资料"
+msgstr "外挂数据"
 
 #: src/frontend/mame/ui/dirmenu.cpp:52
 msgctxt "path-option"
@@ -2193,17 +2193,17 @@ msgstr "文件"
 #: src/frontend/mame/ui/dirmenu.cpp:53
 msgctxt "path-option"
 msgid "Category INIs"
-msgstr "类别 INI"
+msgstr "类别初始化"
 
 #: src/frontend/mame/ui/dirmenu.cpp:54
 msgctxt "path-option"
 msgid "Snapshots"
-msgstr "快照 (snap)"
+msgstr "快照"
 
 #: src/frontend/mame/ui/dirmenu.cpp:55
 msgctxt "path-option"
 msgid "Icons"
-msgstr "图示"
+msgstr "图标"
 
 #: src/frontend/mame/ui/dirmenu.cpp:56
 msgctxt "path-option"
@@ -2213,22 +2213,22 @@ msgstr "控制面板"
 #: src/frontend/mame/ui/dirmenu.cpp:57
 msgctxt "path-option"
 msgid "Cabinets"
-msgstr "机械图 (cabinets)"
+msgstr "机械图"
 
 #: src/frontend/mame/ui/dirmenu.cpp:58
 msgctxt "path-option"
 msgid "Marquees"
-msgstr "贴画 (marquees)"
+msgstr "贴画"
 
 #: src/frontend/mame/ui/dirmenu.cpp:59
 msgctxt "path-option"
 msgid "PCBs"
-msgstr "PCB 图"
+msgstr "印刷电路板"
 
 #: src/frontend/mame/ui/dirmenu.cpp:60
 msgctxt "path-option"
 msgid "Flyers"
-msgstr "广告图 (flyers)"
+msgstr "广告图"
 
 #: src/frontend/mame/ui/dirmenu.cpp:61
 msgctxt "path-option"
@@ -2253,7 +2253,7 @@ msgstr "装饰图预览"
 #: src/frontend/mame/ui/dirmenu.cpp:65
 msgctxt "path-option"
 msgid "Select"
-msgstr "精选"
+msgstr "选关"
 
 #: src/frontend/mame/ui/dirmenu.cpp:66
 msgctxt "path-option"
@@ -2268,7 +2268,7 @@ msgstr "说明图"
 #: src/frontend/mame/ui/dirmenu.cpp:68
 msgctxt "path-option"
 msgid "Logos"
-msgstr "标题图"
+msgstr "徽标"
 
 #: src/frontend/mame/ui/dirmenu.cpp:69
 msgctxt "path-option"
@@ -2293,12 +2293,12 @@ msgstr "移除 %1$s 文件夹"
 #: src/frontend/mame/ui/dirmenu.cpp:357
 #, c-format
 msgid "Add %1$s Folder - Search: %2$s_"
-msgstr "新增 %1$s 文件夹 - 搜寻： %2$s_"
+msgstr "添加 %1$s 文件夹 - 搜索： %2$s_"
 
 #: src/frontend/mame/ui/dirmenu.cpp:357
 #, c-format
 msgid "Change %1$s Folder - Search: %2$s_"
-msgstr "变更 %1$s 文件夹 - 搜寻： %2$s_"
+msgstr "变更 %1$s 文件夹 - 搜索： %2$s_"
 
 #: src/frontend/mame/ui/dirmenu.cpp:368
 msgid "Press TAB to set"
@@ -2316,7 +2316,7 @@ msgstr "%1$s 文件夹"
 
 #: src/frontend/mame/ui/dirmenu.cpp:523
 msgid "Add Folder"
-msgstr "新增文件夹"
+msgstr "添加文件夹"
 
 #: src/frontend/mame/ui/dirmenu.cpp:525
 msgid "Remove Folder"
@@ -2364,7 +2364,7 @@ msgstr "[root%1$s]"
 #, c-format
 msgctxt "gfxview"
 msgid "[root%1$s] colors"
-msgstr "[root%1$s] 色"
+msgstr "[root%1$s] 颜色"
 
 #: src/frontend/mame/ui/viewgfx.cpp:927
 #, c-format
@@ -2450,7 +2450,7 @@ msgstr "系统： %1$-.100s"
 #, c-format
 msgctxt "menu-selector"
 msgid "%1$s - Search: %2$s_"
-msgstr "%1$s - 搜寻： %2$s_"
+msgstr "%1$s - 搜索： %2$s_"
 
 #: src/frontend/mame/ui/selector.cpp:110
 msgctxt "menu-selector"
@@ -2532,7 +2532,7 @@ msgstr "隐藏两者"
 
 #: src/frontend/mame/ui/custui.cpp:144
 msgid "UI Language"
-msgstr "UI 语言"
+msgstr "用户界面语言"
 
 #: src/frontend/mame/ui/custui.cpp:169 src/frontend/mame/ui/custui.cpp:222
 msgid "System Names"
@@ -2560,15 +2560,15 @@ msgstr "[内建]"
 
 #: src/frontend/mame/ui/custui.cpp:337
 msgid "UI Fonts"
-msgstr "UI 字体"
+msgstr "用户界面字体"
 
 #: src/frontend/mame/ui/custui.cpp:366
 msgid "default"
-msgstr "缺省"
+msgstr "默认"
 
 #: src/frontend/mame/ui/custui.cpp:465 src/frontend/mame/ui/custui.cpp:507
 msgid "UI Font"
-msgstr "UI 字体"
+msgstr "用户界面字体"
 
 #: src/frontend/mame/ui/custui.cpp:512
 msgid "Bold"
@@ -2592,7 +2592,7 @@ msgstr "采样文字 - Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 #: src/frontend/mame/ui/custui.cpp:563
 msgid "UI Colors"
-msgstr "UI 色"
+msgstr "用户界面色"
 
 #: src/frontend/mame/ui/custui.cpp:626
 msgctxt "color-option"
@@ -2602,7 +2602,7 @@ msgstr "一般文本"
 #: src/frontend/mame/ui/custui.cpp:627
 msgctxt "color-option"
 msgid "Selected color"
-msgstr "选择色"
+msgstr "选择颜色"
 
 #: src/frontend/mame/ui/custui.cpp:628
 msgctxt "color-option"
@@ -2676,7 +2676,7 @@ msgstr "鼠标按下背景颜色"
 
 #: src/frontend/mame/ui/custui.cpp:645
 msgid "Restore default colors"
-msgstr "还原至缺省颜色"
+msgstr "还原至默认颜色"
 
 #: src/frontend/mame/ui/custui.cpp:666
 #, c-format
@@ -2904,7 +2904,7 @@ msgstr "机器设定"
 #: src/frontend/mame/ui/mainmenu.cpp:122
 msgctxt "menu-main"
 msgid "Bookkeeping Info"
-msgstr "收入资讯"
+msgstr "收入信息"
 
 #: src/frontend/mame/ui/mainmenu.cpp:124
 msgctxt "menu-main"
@@ -2984,17 +2984,17 @@ msgstr "插件选项"
 #: src/frontend/mame/ui/mainmenu.cpp:175
 msgctxt "menu-main"
 msgid "External DAT View"
-msgstr "检视外部文件"
+msgstr "外部文件预览"
 
 #: src/frontend/mame/ui/mainmenu.cpp:181
 msgctxt "menu-main"
 msgid "Add To Favorites"
-msgstr "新增至最爱"
+msgstr "添加到收藏夹"
 
 #: src/frontend/mame/ui/mainmenu.cpp:183
 msgctxt "menu-main"
 msgid "Remove From Favorites"
-msgstr "从最爱移除"
+msgstr "从收藏夹中删除"
 
 #: src/frontend/mame/ui/mainmenu.cpp:187
 #, c-format
@@ -3043,7 +3043,7 @@ msgstr "控制面板"
 #: src/frontend/mame/ui/selmenu.cpp:86
 msgctxt "selmenu-artwork"
 msgid "PCB"
-msgstr "PCB 图"
+msgstr "印刷电路板"
 
 #: src/frontend/mame/ui/selmenu.cpp:87
 msgctxt "selmenu-artwork"
@@ -3073,7 +3073,7 @@ msgstr "首领"
 #: src/frontend/mame/ui/selmenu.cpp:92
 msgctxt "selmenu-artwork"
 msgid "Logo"
-msgstr "标题图"
+msgstr "徽标"
 
 #: src/frontend/mame/ui/selmenu.cpp:93
 msgctxt "selmenu-artwork"
@@ -3098,7 +3098,7 @@ msgstr "得分"
 #: src/frontend/mame/ui/selmenu.cpp:97
 msgctxt "selmenu-artwork"
 msgid "Select"
-msgstr "精选"
+msgstr "选关"
 
 #: src/frontend/mame/ui/selmenu.cpp:98
 msgctxt "selmenu-artwork"
@@ -3112,11 +3112,11 @@ msgstr "封面"
 
 #: src/frontend/mame/ui/selmenu.cpp:103
 msgid "Add or remove favorite"
-msgstr "新增或移除最爱项目"
+msgstr "新增或移除收藏夹"
 
 #: src/frontend/mame/ui/selmenu.cpp:104
 msgid "Export displayed list to file"
-msgstr "汇出显示的清单至文件"
+msgstr "导出显示的列表至文件"
 
 #: src/frontend/mame/ui/selmenu.cpp:105
 msgid "Audit media"
@@ -3124,7 +3124,7 @@ msgstr "校验媒体"
 
 #: src/frontend/mame/ui/selmenu.cpp:106
 msgid "Show DATs view"
-msgstr "显示文件检视"
+msgstr "显示文件视图"
 
 #: src/frontend/mame/ui/selmenu.cpp:268
 msgid "Select Software Package Part"
@@ -3146,15 +3146,15 @@ msgstr "软件克隆于： %1$s"
 
 #: src/frontend/mame/ui/selmenu.cpp:695
 msgid "Software is parent"
-msgstr "软件为主档"
+msgstr "软件为主文件"
 
 #: src/frontend/mame/ui/selmenu.cpp:700
 msgid "Supported: No"
-msgstr "已支援： 否"
+msgstr "已支持： 否"
 
 #: src/frontend/mame/ui/selmenu.cpp:705
 msgid "Supported: Partial"
-msgstr "已支援： 部分"
+msgstr "已支持： 部分"
 
 #: src/frontend/mame/ui/selmenu.cpp:710
 msgid "Supported: Yes"
@@ -3162,7 +3162,7 @@ msgstr "已支援： 是"
 
 #: src/frontend/mame/ui/selmenu.cpp:726
 msgid "System is parent"
-msgstr "系统为主档"
+msgstr "系统为主文件"
 
 #: src/frontend/mame/ui/selmenu.cpp:728 src/frontend/mame/ui/selmenu.cpp:730
 #, c-format
@@ -3418,19 +3418,19 @@ msgstr "通讯\t不完美\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3055
 msgid "LAN\tUnimplemented\n"
-msgstr "区域网路\t无法执行\n"
+msgstr "区域网\t无法执行\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3057
 msgid "LAN\tImperfect\n"
-msgstr "区域网路\t不完美\n"
+msgstr "区域网\t不完美\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3060
 msgid "WAN\tUnimplemented\n"
-msgstr "外部网路\t无法执行\n"
+msgstr "外部网络\t无法执行\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3062
 msgid "WAN\tImperfect\n"
-msgstr "外部网路\t不完美\n"
+msgstr "外部网络\t不完美\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3065
 msgid "Timing\tUnimplemented\n"
@@ -3466,7 +3466,7 @@ msgstr "需要可点击的装饰图\t否\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3073
 msgid "Support Cocktail\tNo\n"
-msgstr "支援檯面型筐体\t否\n"
+msgstr "支持台面型筐体\t否\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3074
 msgid "System is BIOS\tYes\n"
@@ -3478,11 +3478,11 @@ msgstr "系统为 BIOS\t否\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3075
 msgid "Support Save\tYes\n"
-msgstr "支援即时存档\t是\n"
+msgstr "支持即时存档\t是\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3075
 msgid "Support Save\tNo\n"
-msgstr "支援即时存档\t否\n"
+msgstr "支持即时存档\t否\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3076
 msgid "Screen Orientation\tVertical\n"
@@ -3514,11 +3514,11 @@ msgstr "采样文件校验结果\t不需要\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3106
 msgid "Samples Audit Result\tOK\n"
-msgstr "样本档校验结果\tOK\n"
+msgstr "样品校验结果\tOK\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3108
 msgid "Samples Audit Result\tBAD\n"
-msgstr "样本档校验结果\t错误\n"
+msgstr "样品校验结果\t错误\n"
 
 #: src/frontend/mame/ui/selmenu.cpp:3112
 msgid ""
@@ -3576,7 +3576,7 @@ msgstr ""
 "选项： %1$s\n"
 "设备： %2$s\n"
 "\n"
-"如选用此选项，下列项目將启用：\n"
+"如选用此选项，下列项目将启用：\n"
 
 #: src/frontend/mame/ui/devopt.cpp:71
 msgid "* CPU:\n"
@@ -3612,13 +3612,13 @@ msgid ""
 "  %1$d options    [default: %2$s]\n"
 msgstr ""
 "* BIOS 设定：\n"
-"  %1$d 选项    [缺省： %2$s]\n"
+"  %1$d 选项    [默认： %2$s]\n"
 
 #: src/frontend/mame/ui/devopt.cpp:264 src/frontend/mame/ui/devopt.cpp:280
 #: src/frontend/mame/ui/devopt.cpp:341
 #, c-format
 msgid "  %1$s    [default: %2$s]\n"
-msgstr "  %1$s    [缺省： %2$s]\n"
+msgstr "  %1$s    [默认： %2$s]\n"
 
 #: src/frontend/mame/ui/devopt.cpp:269 src/frontend/mame/ui/devopt.cpp:285
 #, c-format
@@ -3640,7 +3640,7 @@ msgstr "* 输入设备：\n"
 #: src/frontend/mame/ui/devopt.cpp:302
 #, c-format
 msgid "  User inputs    [%1$d inputs]\n"
-msgstr "  使用者输入    [%1$d 输入]\n"
+msgstr "  用户输入    [%1$d 输入]\n"
 
 #: src/frontend/mame/ui/devopt.cpp:304
 #, c-format
@@ -4592,7 +4592,7 @@ msgstr "机门连锁"
 #: src/emu/inpttype.ipp:609
 msgctxt "input-name"
 msgid "Memory Reset"
-msgstr "记忆体重置"
+msgstr "内存重置"
 
 #: src/emu/inpttype.ipp:610
 msgctxt "input-name"
@@ -5399,7 +5399,7 @@ msgstr "显示/隐藏菜单"
 #: src/emu/inpttype.ipp:875
 msgctxt "input-name"
 msgid "UI Select"
-msgstr "菜单 选定键"
+msgstr "菜单 选择"
 
 #: src/emu/inpttype.ipp:876
 msgctxt "input-name"
@@ -5409,12 +5409,12 @@ msgstr "菜单 返回"
 #: src/emu/inpttype.ipp:877
 msgctxt "input-name"
 msgid "UI Cancel"
-msgstr "菜单 取消键"
+msgstr "菜单 取消"
 
 #: src/emu/inpttype.ipp:878
 msgctxt "input-name"
 msgid "UI Clear"
-msgstr "菜单 清除键"
+msgstr "菜单 清除"
 
 #: src/emu/inpttype.ipp:879
 msgctxt "input-name"
@@ -5479,12 +5479,12 @@ msgstr "参数调整"
 #: src/emu/inpttype.ipp:891
 msgctxt "input-name"
 msgid "Toggle UI Controls"
-msgstr ""
+msgstr "切换用户界面控件"
 
 #: src/emu/inpttype.ipp:892
 msgctxt "input-name"
 msgid "Break in Debugger"
-msgstr "除错器内中断"
+msgstr "调试器内中断"
 
 #: src/emu/inpttype.ipp:893
 msgctxt "input-name"
@@ -5544,7 +5544,7 @@ msgstr "限制速度"
 #: src/emu/inpttype.ipp:904
 msgctxt "input-name"
 msgid "Fast Forward"
-msgstr "快转"
+msgstr "快进"
 
 #: src/emu/inpttype.ipp:905
 msgctxt "input-name"
@@ -5554,7 +5554,7 @@ msgstr "显示 FPS"
 #: src/emu/inpttype.ipp:906
 msgctxt "input-name"
 msgid "Save Snapshot"
-msgstr "保存撷图"
+msgstr "保存截图"
 
 #: src/emu/inpttype.ipp:907
 msgctxt "input-name"
@@ -5614,12 +5614,12 @@ msgstr "菜单 贴上文字"
 #: src/emu/inpttype.ipp:918
 msgctxt "input-name"
 msgid "UI (First) Tape Start"
-msgstr "菜单 (首)磁带开始"
+msgstr "菜单 (第一个)磁带开始"
 
 #: src/emu/inpttype.ipp:919
 msgctxt "input-name"
 msgid "UI (First) Tape Stop"
-msgstr "菜单 (首)磁带停止"
+msgstr "菜单 (第一个)磁带停止"
 
 #: src/emu/inpttype.ipp:920
 msgctxt "input-name"
@@ -5634,17 +5634,17 @@ msgstr "菜单 上一焦点"
 #: src/emu/inpttype.ipp:922
 msgctxt "input-name"
 msgid "UI External DAT View"
-msgstr "菜单 检视外部 DAT"
+msgstr "菜单 外部文件视图"
 
 #: src/emu/inpttype.ipp:923
 msgctxt "input-name"
 msgid "UI Add/Remove Favorite"
-msgstr "菜单 新增/移除最爱项目"
+msgstr "菜单 添加/移除收藏夹"
 
 #: src/emu/inpttype.ipp:924
 msgctxt "input-name"
 msgid "UI Export List"
-msgstr "菜单 汇出列表"
+msgstr "菜单 导出列表"
 
 #: src/emu/inpttype.ipp:925
 msgctxt "input-name"
@@ -5654,17 +5654,17 @@ msgstr "菜单 校验媒体"
 #: src/osd/modules/input/input_windows.cpp:111 src/osd/sdl/osdsdl.cpp:339
 msgctxt "input-name"
 msgid "Toggle Fullscreen"
-msgstr "切换全萤幕"
+msgstr "切换全画面"
 
 #: src/osd/modules/input/input_windows.cpp:117
 msgctxt "input-name"
 msgid "Take Rendered Snapshot"
-msgstr "拍摄描绘的撷图"
+msgstr "获取截图"
 
 #: src/osd/modules/input/input_windows.cpp:128 src/osd/sdl/osdsdl.cpp:388
 msgctxt "input-name"
 msgid "Record Rendered Video"
-msgstr "拍摄描绘的视频"
+msgstr "获取视频"
 
 #: src/osd/modules/input/input_windows.cpp:144
 msgctxt "input-name"
@@ -5674,7 +5674,7 @@ msgstr "切换后处理"
 #: src/osd/sdl/osdsdl.cpp:365
 msgctxt "input-name"
 msgid "Toggle Filter"
-msgstr "切换过滤"
+msgstr "切换筛选"
 
 #: src/osd/sdl/osdsdl.cpp:371
 msgctxt "input-name"
@@ -5699,7 +5699,7 @@ msgstr "结束时"
 #: plugins/hiscore/init.lua:86
 msgctxt "plugin-hiscore"
 msgid "Hiscore Support Options"
-msgstr "高分档支援选项"
+msgstr "高分支持选项"
 
 #: plugins/hiscore/init.lua:88
 msgctxt "plugin-hiscore"
@@ -5709,11 +5709,11 @@ msgstr "保存得分"
 #: plugins/hiscore/init.lua:372
 msgctxt "plugin-hiscore"
 msgid "Hiscore Support"
-msgstr "高分档支援"
+msgstr "高分支持"
 
 #: plugins/cheatfind/init.lua:387
 msgid "Other: "
-msgstr "其他： "
+msgstr "其它： "
 
 #: plugins/cheatfind/init.lua:388
 msgid "Save Cheat"
@@ -5721,11 +5721,11 @@ msgstr "保存作弊码"
 
 #: plugins/cheatfind/init.lua:391
 msgid "Default"
-msgstr "缺省"
+msgstr "默认"
 
 #: plugins/cheatfind/init.lua:391
 msgid "Custom"
-msgstr "自订"
+msgstr "自定义"
 
 #: plugins/cheatfind/init.lua:392
 msgid "Cheat Name"
@@ -5734,7 +5734,7 @@ msgstr "作弊码名称"
 #: plugins/cheatfind/init.lua:398 plugins/cheatfind/init.lua:977
 #, lua-format
 msgid "Default name is %s"
-msgstr "缺省名称为 %s"
+msgstr "默认名称为 %s"
 
 #: plugins/cheatfind/init.lua:406
 msgid "Player"
@@ -5775,7 +5775,7 @@ msgid ""
 "Ensure that cheatpath folder exists"
 msgstr ""
 "无法写入文件\n"
-"确认 cheatpath 资料夹是否存在"
+"确认作弊文件夹路径是否存在"
 
 #: plugins/cheatfind/init.lua:497
 msgid "CPU or RAM"
@@ -5783,7 +5783,7 @@ msgstr "CPU 或内存"
 
 #: plugins/cheatfind/init.lua:501
 msgid "Changes to this only take effect when \"Start new search\" is selected"
-msgstr "此变更仅当选定 \"开始新搜寻\" 时生效"
+msgstr "此变更仅当选定 \"开始新搜索\" 时生效"
 
 #: plugins/cheatfind/init.lua:511
 msgid "Automatic"
@@ -5803,7 +5803,7 @@ msgstr "当需要时手动切换暂停"
 
 #: plugins/cheatfind/init.lua:522
 msgid "Automatically toggle pause with on-screen menus"
-msgstr "萤幕菜单出现时自动切换暂停"
+msgstr "画面菜单出现时自动切换暂停"
 
 #: plugins/cheatfind/init.lua:543
 msgid "All slots cleared and current state saved to Slot 1"
@@ -5811,17 +5811,17 @@ msgstr "全部插槽已清除且目前状态已保存至插槽 1"
 
 #: plugins/cheatfind/init.lua:555
 msgid "Start new search"
-msgstr "开始新搜寻"
+msgstr "开始新搜索"
 
 #: plugins/cheatfind/init.lua:566
 #, lua-format
 msgid "Memory state saved to Slot %d"
-msgstr "记忆体状态已保存至插槽 %d"
+msgstr "内存状态已保存至插槽 %d"
 
 #: plugins/cheatfind/init.lua:583
 #, lua-format
 msgid "Save current memory state to Slot %d"
-msgstr "保存现有的记忆体状态至插槽 %d"
+msgstr "保存现有的存储器状态至插槽 %d"
 
 #: plugins/cheatfind/init.lua:614
 #, lua-format
@@ -5871,11 +5871,11 @@ msgstr "左值不等于右值"
 
 #: plugins/cheatfind/init.lua:686
 msgid "Left equal to right with bitmask"
-msgstr "位元遮罩下左值等于右值"
+msgstr "字节遮罩下左值等于右值"
 
 #: plugins/cheatfind/init.lua:688
 msgid "Left not equal to right with bitmask"
-msgstr "位元遮罩下左值不等于右值"
+msgstr "字节遮罩下左值不等于右值"
 
 #: plugins/cheatfind/init.lua:690
 msgid "Left less than value"
@@ -5907,7 +5907,7 @@ msgstr "任意"
 
 #: plugins/cheatfind/init.lua:731
 msgid "Data Format"
-msgstr "资料格式"
+msgstr "数据格式"
 
 #: plugins/cheatfind/init.lua:737
 msgid "Slot 1 Value"
@@ -5944,7 +5944,7 @@ msgstr "仅对齐"
 
 #: plugins/cheatfind/init.lua:791
 msgid "Undo last search -- #"
-msgstr "撤销前次搜寻 -- #"
+msgstr "撤销前次搜索 -- #"
 
 #: plugins/cheatfind/init.lua:795
 msgid "Match block"
@@ -5973,19 +5973,19 @@ msgstr "写入"
 
 #: plugins/cheatfind/init.lua:1003
 msgid "Watch"
-msgstr "监视"
+msgstr "预览"
 
 #: plugins/cheatfind/init.lua:1020
 msgid "Page"
-msgstr "页"
+msgstr "主页"
 
 #: plugins/cheatfind/init.lua:1039
 msgid "Clear Watches"
-msgstr "清除监视"
+msgstr "清除预览"
 
 #: plugins/cheatfind/init.lua:1055
 msgid "Cheat Finder"
-msgstr "作弊码搜寻器"
+msgstr "作弊码搜索器"
 
 #: plugins/portname/init.lua:103
 msgid "Save input names to file"
@@ -5999,16 +5999,16 @@ msgstr "保存输入名称文件时失败"
 #: plugins/portname/init.lua:167
 #, lua-format
 msgid "Input port name file saved to %s"
-msgstr "输入埠名称文件保存至 %s"
+msgstr "输入端口名称文件保存至 %s"
 
 #: plugins/portname/init.lua:172
 msgid "Input ports"
-msgstr "输入埠"
+msgstr "输入端口"
 
 #: plugins/autofire/init.lua:98
 msgctxt "plugin-autofire"
 msgid "Failed to load autofire menu"
-msgstr "载入连射菜单时失败"
+msgstr "载入连发菜单时失败"
 
 #: plugins/autofire/init.lua:105
 msgctxt "plugin-autofire"
@@ -6047,7 +6047,7 @@ msgstr "[无连发按钮]"
 #: plugins/autofire/autofire_menu.lua:263
 msgctxt "plugin-autofire"
 msgid "Add autofire button"
-msgstr "新增连发按钮"
+msgstr "添加连发按钮"
 
 #: plugins/autofire/autofire_menu.lua:150
 msgctxt "plugin-autofire"
@@ -6073,12 +6073,12 @@ msgstr "热键"
 #: plugins/autofire/autofire_menu.lua:160
 msgctxt "plugin-autofire"
 msgid "On frames"
-msgstr "按下帧数"
+msgstr "开启帧数"
 
 #: plugins/autofire/autofire_menu.lua:161
 msgctxt "plugin-autofire"
 msgid "Off frames"
-msgstr "放开帧数"
+msgstr "关闭帧数"
 
 #: plugins/autofire/autofire_menu.lua:200
 msgctxt "plugin-autofire"
@@ -6103,7 +6103,7 @@ msgstr "完成"
 #: plugins/autofire/autofire_menu.lua:272
 msgctxt "plugin-autofire"
 msgid "Create"
-msgstr "建立"
+msgstr "新建"
 
 #: plugins/autofire/autofire_menu.lua:274
 msgctxt "plugin-autofire"
@@ -6244,12 +6244,12 @@ msgstr "完成宏"
 #: plugins/inputmacro/inputmacro_menu.lua:365
 msgctxt "plugin-inputmacro"
 msgid "On release"
-msgstr "放开时启用"
+msgstr "释放时启用"
 
 #: plugins/inputmacro/inputmacro_menu.lua:371
 msgctxt "plugin-inputmacro"
 msgid "Release"
-msgstr "放开"
+msgstr "释放"
 
 #: plugins/inputmacro/inputmacro_menu.lua:374
 #, lua-format
@@ -6298,7 +6298,7 @@ msgstr "输入 %d"
 #: plugins/inputmacro/inputmacro_menu.lua:409
 msgctxt "plugin-inputmacro"
 msgid "Add input"
-msgstr "新增输入"
+msgstr "添加输入"
 
 #: plugins/inputmacro/inputmacro_menu.lua:414
 msgctxt "plugin-inputmacro"
@@ -6308,17 +6308,17 @@ msgstr "删除步骤"
 #: plugins/inputmacro/inputmacro_menu.lua:430
 msgctxt "plugin-inputmacro"
 msgid "Add step at position"
-msgstr "在位置新增步骤"
+msgstr "在此处新增步骤"
 
 #: plugins/inputmacro/inputmacro_menu.lua:476
 msgctxt "plugin-inputmacro"
 msgid "Add Input Macro"
-msgstr "新增输入宏"
+msgstr "添加输入宏"
 
 #: plugins/inputmacro/inputmacro_menu.lua:483
 msgctxt "plugin-inputmacro"
 msgid "Create"
-msgstr "建立"
+msgstr "新建"
 
 #: plugins/inputmacro/inputmacro_menu.lua:485
 msgctxt "plugin-inputmacro"
@@ -6349,7 +6349,7 @@ msgstr "[无宏]"
 #: plugins/inputmacro/inputmacro_menu.lua:580
 msgctxt "plugin-inputmacro"
 msgid "Add macro"
-msgstr "新增宏"
+msgstr "添加宏"
 
 #: plugins/timer/init.lua:27
 #, lua-format
@@ -6370,7 +6370,7 @@ msgstr "已模拟时间"
 #: plugins/timer/init.lua:37
 msgctxt "plugin-timer"
 msgid "Reference"
-msgstr "变数"
+msgstr "参考"
 
 #: plugins/timer/init.lua:39
 msgctxt "plugin-timer"
@@ -6429,7 +6429,7 @@ msgstr "已激活: %s"
 
 #: plugins/cheat/init.lua:810
 msgid "Cheat"
-msgstr "游戏作弊"
+msgstr "作弊"
 
 #: plugins/cheat/init.lua:860
 #, lua-format
@@ -6444,7 +6444,7 @@ msgstr "停用: %s"
 #: plugins/cheat/init.lua:924
 #, lua-format
 msgid "%s added"
-msgstr "%s 已加入"
+msgstr "%s 已添加"
 
 #: plugins/data/data_command.lua:25
 msgctxt "plugin-data"
@@ -6474,7 +6474,7 @@ msgstr "MARP得分"
 #: plugins/data/data_gameinit.lua:16
 msgctxt "plugin-data"
 msgid "Gameinit"
-msgstr "Gameinit"
+msgstr "游戏初始化"
 
 #: plugins/data/data_history.lua:207
 msgctxt "plugin-data"
@@ -6491,8 +6491,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"--- 驱动程式信息 ---\n"
-"驱动程式: "
+"--- 驱动程序信息 ---\n"
+"驱动程序: "
 
 #: plugins/data/data_messinfo.lua:24
 msgctxt "plugin-data"
@@ -6502,7 +6502,7 @@ msgstr "MESSinfo"
 #: plugins/data/data_mameinfo.lua:24
 msgctxt "plugin-data"
 msgid "MAMEinfo"
-msgstr "MAMEinfo"
+msgstr "MAME信息"
 
 #: plugins/commonui/init.lua:93
 #, lua-format
